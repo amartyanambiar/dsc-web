@@ -5,7 +5,7 @@ import EventBanner from "./EventBanner";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-between items-center pt-10 px-10 flex-wrap">
+      <div className="flex justify-between items-center pt-10 md:px-10 px-2 flex-wrap">
         <div className="md:w-1/2 w-full">
           <span className="text-primary my-2 block mx-1">
             For the best, by the best!

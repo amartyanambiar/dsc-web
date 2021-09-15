@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Placeholder from "../components/Placeholder";
 
-const about = () => {
+const events = () => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default events;

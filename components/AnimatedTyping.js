@@ -20,7 +20,7 @@ const AnimatedTyping = ({ strings, sameLineText, nextLineText }) => {
     };
   }, []);
   return (
-    <div className="text-5xl">
+    <div className="md:text-5xl text-4xl">
       <span className="whitespace-pre text-green-600" ref={el} />
       <span className="pl-1">{sameLineText}</span>
       <span className="block">{nextLineText}</span>
