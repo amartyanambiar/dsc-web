@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="flex justify-between items-center pt-10 md:px-10 px-2 flex-wrap">
         <div className="md:w-1/2 w-full">
           <span className="text-primary my-2 block mx-1">
-            For the best, by the best!
+          For the love of learning & developing!
           </span>
           <AnimatedTyping
             strings={[
@@ -23,9 +23,7 @@ const HeroSection = () => {
             nextLineText="DSC CMRIT"
           />
           <p className="md:w-2/3 w-full block ml-1 my-10">
-            At GDSC CMRIT, our aim is to learn and teach. Developers, designers
-            and managers come together under one roof to create a community
-            which inspired thousands.
+          At GDSC CMRIT, we aim at building solutions & uplifting budding developers by providing peer-to-peer learning environment.
           </p>
           <div className="mt-2">
             <a
