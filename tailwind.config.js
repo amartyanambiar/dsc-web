@@ -7,13 +7,13 @@ module.exports = {
     ],
     safelist: [
       "bg-primary",
-      "hover:primaryDark",
+      "hover:bg-primaryDark",
       "bg-telegram",
-      "hover:telegramDark",
+      "hover:bg-telegramDark",
       "bg-discord",
-      "hover:discordDark",
+      "hover:bg-discordDark",
       "bg-linkedin",
-      "hover:linkedinDark",
+      "hover:bg-linkedinDark",
     ],
   },
   darkMode: false, // or 'media' or 'class'
