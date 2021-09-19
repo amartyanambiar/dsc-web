@@ -1,6 +1,21 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: {
+    content: [
+      "./pages/**/*.{js,ts,jsx,tsx}",
+      "./components/**/*.{js,ts,jsx,tsx}",
+    ],
+    safelist: [
+      "bg-primary",
+      "hover:primaryDark",
+      "bg-telegram",
+      "hover:telegramDark",
+      "bg-discord",
+      "hover:discordDark",
+      "bg-linkedin",
+      "hover:linkedinDark",
+    ],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

@@ -1,6 +1,7 @@
 import React from "react";
 import AnimatedTyping from "./AnimatedTyping";
 import EventBanner from "./EventBanner";
+import { COMMUNITY_LINKS } from "../utils/constants";
 
 const HeroSection = () => {
   return (
@@ -27,30 +28,20 @@ const HeroSection = () => {
             developers by providing peer-to-peer learning environment.
           </p>
           <div className="my-2 text-center md:text-left">
-            <a
-              href="https://chat.whatsapp.com/ISrEak57WKe8R6f5lZE4qe"
-              className="bg-primary text-xl rounded-tl-full rounded-bl-full py-2 px-4 hover:bg-primaryDark mt-2"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
-            <a
-              href="https://t.me/dsccmrit"
-              className="bg-telegram text-xl py-2 px-4 hover:bg-telegramDark mt-2"
-            >
-              <i className="fab fa-telegram"></i>
-            </a>
-            <a
-              href="https://discord.gg/2pCRQNNTq5"
-              className="bg-discord text-xl py-2 px-4 hover:bg-discordDark"
-            >
-              <i className="fab fa-discord"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/company/google-developer-student-club-cmrit/"
-              className="bg-linkedin text-xl rounded-tr-full rounded-br-full py-2 px-4 hover:bg-linkedinDark"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
+            {COMMUNITY_LINKS.map((link, idx) => (
+              <a
+                href={link.href}
+                className={`bg-${link.color} text-xl ${
+                  idx === 0
+                    ? "rounded-tl-full rounded-bl-full"
+                    : idx === COMMUNITY_LINKS.length - 1
+                    ? "rounded-tr-full rounded-br-full"
+                    : ""
+                } py-2 px-4 hover:bg-${link.darkColor} mt-2`}
+              >
+                <i className={`fab fa-${link.iconClass}`}></i>
+              </a>
+            ))}
           </div>
         </div>
         <img
