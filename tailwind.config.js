@@ -5,7 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#1A965A",
+        primary: "hsl(151,70%,35%)",
+        primaryDark: "hsl(151,70%,25%)",
+        telegram: "hsl(200,100%,40%)",
+        telegramDark: "hsl(200,100%,30%)",
+        discord: "hsl(227,58%,65%)",
+        discordDark: "hsl(227,58%,55%)",
+        linkedin: "hsl(201,100%,35%)",
+        linkedinDark: "hsl(201,100%,25%)",
       },
     },
     boxShadow: {
