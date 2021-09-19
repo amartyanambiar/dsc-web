@@ -12,7 +12,10 @@ const EventBanner = ({ name, date }) => {
         </p>
         <Countdown className="text-2xl" countDownTime={date} />
       </div>
-      <img src="/event.png" className="md:w-60 w-full m-2" />
+      <img
+        src="/event.png"
+        className="md:w-1/2 w-full block md:my-0 mx-auto my-4"
+      />
     </div>
   );
 };

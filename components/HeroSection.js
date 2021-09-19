@@ -7,7 +7,7 @@ const HeroSection = () => {
     <>
       <div className="flex justify-between items-center pt-10 md:px-10 px-2 flex-wrap">
         <div className="md:w-1/2 w-full">
-          <span className="text-primary my-2 block mx-1">
+          <span className="text-white my-2 block mx-1">
           For the love of learning & developing!
           </span>
           <AnimatedTyping
