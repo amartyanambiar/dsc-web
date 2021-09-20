@@ -23,6 +23,7 @@ class MyDocument extends Document {
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
           />
+          <link rel="icon" href="favicon.png" type="image/png" />
         </Head>
         <body className="bg-black text-white">
           <Main />
