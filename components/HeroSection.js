@@ -27,7 +27,7 @@ const HeroSection = () => {
             At GDSC CMRIT, we aim at building solutions & uplifting budding
             developers by providing peer-to-peer learning environment.
           </p>
-          <div className="flex">
+          <div className="flex flex-wrap justify-center md:justify-start">
             <div className="my-4 text-center md:text-left">
               {COMMUNITY_LINKS.map((link, idx) => (
                 <a
