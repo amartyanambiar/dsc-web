@@ -23,6 +23,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      animation: {
+        pulse: "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
       colors: {
         primary: "hsl(151,70%,35%)",
         primaryDark: "hsl(151,70%,25%)",
@@ -52,6 +55,7 @@ module.exports = {
     },
   },
   variants: {
+    animation: ["responsive", "motion-safe", "motion-reduce"],
     extend: {},
   },
   plugins: [],
