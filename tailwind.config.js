@@ -14,6 +14,8 @@ module.exports = {
       "hover:bg-discordDark",
       "bg-linkedin",
       "hover:bg-linkedinDark",
+      "bg-youtube",
+      "hover:bg-youtubeDark",
     ],
   },
   darkMode: false, // or 'media' or 'class'
@@ -28,6 +30,8 @@ module.exports = {
         discordDark: "hsl(227,58%,55%)",
         linkedin: "hsl(201,100%,35%)",
         linkedinDark: "hsl(201,100%,25%)",
+        youtube: "hsl(0,100%,50%)",
+        youtubeDark: "hsl(0,100%,40%)",
       },
     },
     boxShadow: {

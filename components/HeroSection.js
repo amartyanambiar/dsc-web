@@ -51,7 +51,7 @@ const HeroSection = () => {
       </div>
       <EventBanner
         name="30 days of Google Cloud Platform"
-        date="28 September 2021"
+        date="27 September 2021"
       />
     </>
   );
