@@ -17,10 +17,10 @@ const AboutInfo = ({ router }) => {
         </div>     
         {/* About US done */}
         {/* Mission starts */}
-        <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4  py-2  my-10 m-auto text-center">
+        <div className="lg:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4  py-2  my-10 m-auto text-center">
             <h1 className="text-5xl text-yellow-500">Our Mission</h1>
             <div className="lg:flex justify-between items-start">
-                <div className="md:w-96 md:1/2 lg:mr-2 my-5 m-auto  bg-purple-600 bg-opacity-25 rounded-lg">
+                <div className="md:w-96 md:w-1/2 lg:mr-2 my-5 m-auto  bg-purple-600 bg-opacity-25 rounded-lg">
                     <img className="w-52 h-40 mx-auto my-8" src="/mission_edu.png"></img>
                     <div className="bg-purple-600 bg-opacity-75  rounded-b-lg">
                         <h3 className="text-3xl py-3.5 text-green-600 text-black text-opacity-100 uppercase">Education</h3>
@@ -39,7 +39,7 @@ const AboutInfo = ({ router }) => {
                     
 
                 </div>
-                <div className="md:w-96 md:w-1/2 my-5 m-auto bg-purple-600 bg-opacity-25 rounded-lg">
+                <div className="md:w-96 md:w-1/2 lg:mr-2 my-5 m-auto bg-purple-600 bg-opacity-25 rounded-lg">
                     <img className="w-52 h-40 mx-auto my-8" src="/mission_innovate.png"></img>
                     <div className="bg-purple-600 bg-opacity-75 rounded-b-lg">
                         <h3 className="text-3xl py-3.5 text-black text-opacity-100 uppercase"> Innovations</h3>
