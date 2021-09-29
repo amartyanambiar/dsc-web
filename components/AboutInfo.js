@@ -18,28 +18,28 @@ const AboutInfo = () => {
         {/* Mission starts */}
         <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4  py-2  my-10 m-auto text-center">
             <h1 className="text-5xl text-red-600 uppercase">Our Mission</h1>
-            <div className="lg:flex justify-between items-start">
+            <div className="lg:flex justify-between items-start items-stretch ">
                 <Mission
-                    MissionImage = "/mission_edu.png"
-                    MissionTitle = "Education"
-                    MissionText = "GDSC CMRIT provides a platform for the growth and advancement of the student community in the field of technology by providing peer-to-peer learning environment by conducting , webinars and events , providing hands on experiences on topics like Web Development, Mobile App Development, Data Science, Blockchain,  Machine Learning, Contributing to Open Source and much more!"
+                    missionImage = "/mission_edu.png"
+                    missionTitle = "Education"
+                    missionText = "GDSC CMRIT provides a platform for the growth and advancement of the student community in the field of technology by providing peer-to-peer learning environment by conducting webinars and events , providing hands on experiences on topics like Web Development, Mobile App Development, Machine Learning and much more!"
                 />
                 <Mission
-                    MissionImage = "/mission_collab.png"
-                    MissionTitle = "Collaboration"
-                    MissionText = "We are not just a community but a mini India where people from diverse backgrounds and different majors come together to collaborate and co-create new innovative ideas that would help solve real world problems, build solutions for the local problems and beget a community that aspires for a positive and impactful change."
+                    missionImage = "/mission_collab.png"
+                    missionTitle = "Collaboration"
+                    missionText = "We are not just a community but a mini India where people from diverse backgrounds and different majors and knowledge come together to collaborate and co-create new innovative ideas that would help solve real world problems, build solutions for the local problems and beget a community that aspires for a positive and impactful change."
                 />
                 <Mission
-                    MissionImage ="/mission_innovate.png"
-                    MissionTitle = "Innovations"
-                    MissionText = "Through education and collaboration we want to provide students a platform where they can innovate and experiment along with us. Developing innovative products is what separates one from the crowd. Therefore, we want to lay the foundation necessary to bring our innovative visions to life through the power of technology."
+                    missionImage ="/mission_innovate.png"
+                    missionTitle = "Innovations"
+                    missionText = "Through education and collaboration we want to provide students a platform where they can innovate and experiment along with us. Developing innovative products is what separates one from the crowd. Therefore, we want to lay the foundation necessary to bring our innovative visions to life through the power of technology."
                 />
             </div>
         </div>
         {/* Mission ends */}
         {/* Aim and vision Starts */}
 
-        <div className="md:w-4/5  w-11/12  md:flex items-start m-auto ">
+        <div className="md:w-4/5  w-11/12  md:flex items-start m-auto items-stretch">
             <VisionAim
                 title = "Our Aim"
                 image = "/aim.jpg"
