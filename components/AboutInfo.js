@@ -32,7 +32,7 @@ const AboutInfo = () => {
                 <Mission
                     missionImage ="/mission_innovate.png"
                     missionTitle = "Innovations"
-                    missionText = "Through education and collaboration we want to provide students a platform where they can innovate and experiment along with us. Developing innovative products is what separates one from the crowd. Therefore, we want to lay the foundation necessary to bring our innovative visions to life through the power of technology."
+                    missionText = "Through education and collaboration we want to provide students a platform where they can innovate and experiment along with us. Developing innovative products is what separates one from the crowd. Therefore, we want to lay the foundation necessary to bring our innovative visions and knowldge to life through the power of technology."
                 />
             </div>
         </div>

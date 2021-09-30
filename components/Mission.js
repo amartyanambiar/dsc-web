@@ -5,7 +5,7 @@ const Mission = ({missionImage, missionTitle,missionText}) => {
             <img className="w-52 pt-4 h-40 mx-auto my-8" src={missionImage}></img>
             <div className="bg-purple-600 bg-opacity-75 rounded-b-lg">
                 <h3 className="text-4xl py-3.5 text-green-600 text-black text-opacity-100">{missionTitle}</h3>
-                <p className="mx-5 pb-5">{missionText}</p>
+                <p className="mx-5 pb-5 text-xl">{missionText}</p>
             </div>
         </div>
 
