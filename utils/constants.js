@@ -1,6 +1,6 @@
 export const COMMUNITY_LINKS = [
   {
-    href: "https://chat.whatsapp.com/ISrEak57WKe8R6f5lZE4qe",
+    href: "https://chat.whatsapp.com/GlXCVD0zFAp9I0x67pt9vn",
     iconClass: "whatsapp",
     color: "primary",
     darkColor: "primaryDark",
