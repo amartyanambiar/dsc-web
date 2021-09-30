@@ -4,8 +4,8 @@ import VisionAim from "./VisionAim";
 const AboutInfo = () => {
   return (
     <div className="container m-auto my-10"> 
-       <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4 flex-wrap py-2 my-10 m-auto transition-transform transition duration-500 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110">
-            <h1 className="text-5xl text-red-600 text-center uppercase">About Us</h1>
+       <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4 flex-wrap py-2 my-10 m-auto transition-transform transition duration-500 hover:bg-purple-600 hover:bg-opacity-75  transform hover:-translate-y-1 hover:scale-110">
+            <h1 className="text-5xl text-primary text-center uppercase">About Us</h1>
            <div className="lg:flex justify-between items-center ">
                 <p className="text-xl   m-8 text-center">
                     GDSC CMRIT is a university-based community group for students interested in Google developer technologies. GDSC can take many forms-from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences. We work on various technical domains and try to make use of Google Technologies to empower the audience around us.. By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities.
@@ -17,7 +17,7 @@ const AboutInfo = () => {
         {/* About US done */}
         {/* Mission starts */}
         <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4  py-2  my-10 m-auto text-center">
-            <h1 className="text-5xl text-red-600 uppercase">Our Mission</h1>
+            <h1 className="text-5xl text-primary uppercase">Our Mission</h1>
             <div className="lg:flex justify-between items-start items-stretch ">
                 <Mission
                     missionImage = "/mission_edu.png"
