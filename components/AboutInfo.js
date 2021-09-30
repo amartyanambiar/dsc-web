@@ -6,15 +6,15 @@ const AboutInfo = () => {
     <div className="container m-auto my-10">
       {/* About US done */}
 
-      <div className="md:w-4/5 w-11/12  bg-gray-900 rounded-lg px-4  py-2  my-10 m-auto text-center">
+      <div className="md:w-4/5 w-11/12   rounded-lg px-4  py-2  my-10 m-auto text-center">
         <h1 className="text-5xl text-primary text-center uppercase">
           About Us
         </h1>
 
-        <div className=" lg:mx-2 my-5 m-auto bg-purple-600 bg-opacity-25 rounded-lg transition duration-500 ease-in transform hover:-translate-y-1 hover:scale-105 ">
+        <div className=" lg:mx-2 my-5 m-auto bg-purple-600 bg-opacity-25 transition duration-500 ease-in transform hover:-translate-y-1 hover:scale-105 ">
           {" "}
-          <div className=" ">
-            <p className=" m-8 text-center">
+          <div className="rounded-lg bg-opacity-75 bg-purple-600">
+            <p className=" mx-5 py-5">
               GDSC CMRIT is a university-based community group for students
               interested in Google developer technologies. GDSC can take many
               forms-from just a few people getting together to watch some
