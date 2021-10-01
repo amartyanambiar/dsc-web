@@ -24,7 +24,7 @@ const AboutInfo = () => {
             </div>
             {/* Goals starts */}
             <h1 className="text-5xl text-primary uppercase">Our Goals</h1>
-            <div className="lg:flex justify-between items-start items-stretch">
+            <div className="lg:flex justify-between items-start">
                 <Goal
                     goalImage="/mission_edu.png"
                     goalTitle="Education"
@@ -33,7 +33,7 @@ const AboutInfo = () => {
                 <Goal
                     goalImage="/mission_collab.png"
                     goalTitle="Collaboration"
-                    goalText="We are not just a community but a mini India where people from diverse backgrounds and different majors come together to collaborate and co-create new innovative ideas that would help solve real world problems, build solutions for the local problems and beget a community that aspires for a positive and impactful change."
+                    goalText="We are not just a community but a mini India where people from diverse backgrounds,different majors and knowledge come together to collaborate and co-create new innovative ideas that would help solve real world problems, build solutions for the local problems and beget a community that aspires for a positive and impactful change."
                 />
                 <Goal
                     goalImage="/mission_innovate.png"
